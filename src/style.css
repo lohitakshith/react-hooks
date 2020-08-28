@@ -1,0 +1,51 @@
+body{
+  background: papayawhip;
+  margin:0;
+  box-sizing: border-box;
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  background: palevioletred;
+  padding: 10px;
+  align-items: center;
+}
+.navBar h1{
+  margin-bottom: 0;
+  margin-top:0;
+  color:white
+}
+.list-item{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  padding:10px;
+  margin-bottom:10px;
+  align-items: center
+}
+.list-item span{
+  color:white;
+}
+.list-item button{
+padding:5px 10px;
+}
+form input{
+  display: block;
+  padding:7px 10px;
+  width: 100%;
+  min-width: 280px;
+}
+form input:first-child{
+  margin-bottom: 20px;
+}
+form input:focus{
+  background: #e4e4e4
+}
+form button{
+  background: white;
+  padding:7px;
+  border: 1px solid gray
+}
+form button:hover{
+  background: lightgrey
+}
